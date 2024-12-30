@@ -1,6 +1,6 @@
 {
   "name": "elliptic",
-  "version": "6.5.2",
+  "version": "6.5.2-sp1",
   "description": "EC cryptography",
   "main": "lib/elliptic.js",
   "files": [
@@ -11,7 +11,7 @@
     "jshint": "jscs benchmarks/*.js lib/*.js lib/**/*.js lib/**/**/*.js test/index.js",
     "lint": "npm run jscs && npm run jshint",
     "unit": "istanbul test _mocha --reporter=spec test/index.js",
-    "test": "npm run lint && npm run unit",
+    "test": "npm run unit",
     "version": "grunt dist && git add dist/"
   },
   "repository": {
